@@ -39,6 +39,7 @@ PRODUCT_PACKAGES += \
     libakeymint \
     libakeymint_remote_prov_support \
     libamavutils \
+    libbt-vendor \
     liboemcrypto \
     libsecmem \
     libHwAudio_dcvdec \
