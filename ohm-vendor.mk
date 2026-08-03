@@ -6,6 +6,7 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/amlogic/ohm
 
 PRODUCT_COPY_FILES += \
+    vendor/amlogic/ohm/proprietary/product/etc/sysconfig/netflix.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/netflix.xml \
     vendor/amlogic/ohm/proprietary/vendor/etc/bluetooth/qca6174/ar3k/nvm_tlv_3.2.bin:$(TARGET_COPY_OUT_VENDOR)/etc/bluetooth/qca6174/ar3k/nvm_tlv_3.2.bin \
     vendor/amlogic/ohm/proprietary/vendor/etc/bluetooth/qca6174/ar3k/rampatch_tlv_3.2.tlv:$(TARGET_COPY_OUT_VENDOR)/etc/bluetooth/qca6174/ar3k/rampatch_tlv_3.2.tlv \
     vendor/amlogic/ohm/proprietary/vendor/etc/bluetooth/qca9377/ar3k/nvm_tlv_tf_1.1.bin:$(TARGET_COPY_OUT_VENDOR)/etc/bluetooth/qca9377/ar3k/nvm_tlv_tf_1.1.bin \
@@ -14,6 +15,7 @@ PRODUCT_COPY_FILES += \
     vendor/amlogic/ohm/proprietary/vendor/etc/init/android.hardware.security.keymint-service.amlogic.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.security.keymint-service.amlogic.rc \
     vendor/amlogic/ohm/proprietary/vendor/etc/mesondisplay.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/mesondisplay.cfg \
     vendor/amlogic/ohm/proprietary/vendor/etc/permissions/android.hardware.hardware_keystore.amlogic.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.hardware_keystore.amlogic.xml \
+    vendor/amlogic/ohm/proprietary/vendor/etc/permissions/droidlogic.software.netflix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/droidlogic.software.netflix.xml \
     vendor/amlogic/ohm/proprietary/vendor/lib/firmware/athwlan.bin:$(TARGET_COPY_OUT_VENDOR)/lib/firmware/athwlan.bin \
     vendor/amlogic/ohm/proprietary/vendor/lib/firmware/aucpu_fw.bin:$(TARGET_COPY_OUT_VENDOR)/lib/firmware/aucpu_fw.bin \
     vendor/amlogic/ohm/proprietary/vendor/lib/firmware/bdwlan30.bin:$(TARGET_COPY_OUT_VENDOR)/lib/firmware/bdwlan30.bin \
