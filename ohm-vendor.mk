@@ -7,6 +7,7 @@ PRODUCT_SOONG_NAMESPACES += \
 
 PRODUCT_COPY_FILES += \
     vendor/amlogic/ohm/proprietary/product/etc/sysconfig/netflix.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/netflix.xml \
+    vendor/amlogic/ohm/proprietary/recovery/root/system/etc/mesondisplay.cfg:$(TARGET_COPY_OUT_RECOVERY)/root/system/etc/mesondisplay.cfg \
     vendor/amlogic/ohm/proprietary/vendor/etc/bluetooth/qca6174/ar3k/nvm_tlv_3.2.bin:$(TARGET_COPY_OUT_VENDOR)/etc/bluetooth/qca6174/ar3k/nvm_tlv_3.2.bin \
     vendor/amlogic/ohm/proprietary/vendor/etc/bluetooth/qca6174/ar3k/rampatch_tlv_3.2.tlv:$(TARGET_COPY_OUT_VENDOR)/etc/bluetooth/qca6174/ar3k/rampatch_tlv_3.2.tlv \
     vendor/amlogic/ohm/proprietary/vendor/etc/bluetooth/qca9377/ar3k/nvm_tlv_tf_1.1.bin:$(TARGET_COPY_OUT_VENDOR)/etc/bluetooth/qca9377/ar3k/nvm_tlv_tf_1.1.bin \
