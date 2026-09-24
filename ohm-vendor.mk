@@ -14,6 +14,7 @@ PRODUCT_COPY_FILES += \
     vendor/amlogic/ohm/proprietary/vendor/etc/bluetooth/qca9377/ar3k/rampatch_tlv_tf_1.1.tlv:$(TARGET_COPY_OUT_VENDOR)/etc/bluetooth/qca9377/ar3k/rampatch_tlv_tf_1.1.tlv \
     vendor/amlogic/ohm/proprietary/vendor/etc/init/android.hardware.oemlock@1.0-service.droidlogic.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.oemlock@1.0-service.droidlogic.rc \
     vendor/amlogic/ohm/proprietary/vendor/etc/init/android.hardware.security.keymint-service.amlogic.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.security.keymint-service.amlogic.rc \
+    vendor/amlogic/ohm/proprietary/vendor/etc/init/dvb.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/dvb.rc \
     vendor/amlogic/ohm/proprietary/vendor/etc/mesondisplay.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/mesondisplay.cfg \
     vendor/amlogic/ohm/proprietary/vendor/etc/permissions/android.hardware.hardware_keystore.amlogic.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.hardware_keystore.amlogic.xml \
     vendor/amlogic/ohm/proprietary/vendor/etc/permissions/droidlogic.software.netflix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/droidlogic.software.netflix.xml \
