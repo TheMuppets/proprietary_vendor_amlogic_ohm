@@ -46,8 +46,6 @@ PRODUCT_PACKAGES += \
     libbt-vendor \
     liboemcrypto \
     libsecmem \
-    libHwAudio_dcvdec \
-    libHwAudio_dtshd \
     android.hardware.oemlock@1.0-service.droidlogic.xml \
     android.hardware.security.keymint-service-no-rkp.amlogic.xml \
     android.hardware.oemlock@1.0-service.droidlogic \
